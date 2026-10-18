@@ -1,0 +1,22 @@
+name: test
+on:
+  push:
+  pull_request:
+  workflow_dispatch:
+jobs:
+  formula:
+    strategy:
+      fail-fast: false
+      matrix:
+        os: [ubuntu-latest, macos-latest]
+    runs-on: ${{ matrix.os }}
+    steps:
+      - uses: actions/checkout@v4
+      - name: Install from this tap
+        run: |
+          brew tap emirmrkaljevic/tap "$GITHUB_WORKSPACE"
+          brew install emirmrkaljevic/tap/behave
+      - name: brew test
+        run: brew test emirmrkaljevic/tap/behave
+      - name: brew audit
+        run: brew audit --strict emirmrkaljevic/tap/behave
