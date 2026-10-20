@@ -5,23 +5,23 @@ class Behave < Formula
 
   on_macos do
     on_arm do
-      url "https://github.com/emirmrkaljevic/behave/releases/download/v0.1.5/behave_0.1.5_darwin_arm64.tar.gz"
-      sha256 "55f0adc947fbe396f113550548b06f23e87cdc49e91aa4d6348b3c5bc1481dce"
+      url "https://github.com/emirmrkaljevic/behave/releases/download/v0.1.6/behave_0.1.6_darwin_arm64.tar.gz"
+      sha256 "9913f6bef3a6517be127f9d688d5e55a87a16f264230013f89d92ed43d8eb0a5"
     end
     on_intel do
-      url "https://github.com/emirmrkaljevic/behave/releases/download/v0.1.5/behave_0.1.5_darwin_amd64.tar.gz"
-      sha256 "6784d3156fb432a593cdb68153f73056ec8245a6528c568461fac271ae786cb4"
+      url "https://github.com/emirmrkaljevic/behave/releases/download/v0.1.6/behave_0.1.6_darwin_amd64.tar.gz"
+      sha256 "f85d332a3474b3feccc4dce1d28e1d290bfea99a53dafdb1b306fe97362468f6"
     end
   end
 
   on_linux do
     on_arm do
-      url "https://github.com/emirmrkaljevic/behave/releases/download/v0.1.5/behave_0.1.5_linux_arm64.tar.gz"
-      sha256 "e578b46254739bcaacf4625476b80cc0721ac03452aa3407c3306819c0b2f5a9"
+      url "https://github.com/emirmrkaljevic/behave/releases/download/v0.1.6/behave_0.1.6_linux_arm64.tar.gz"
+      sha256 "5f485f032e46d4d1730f69cffea09e4c6efe5e120a12881f2c5dee28ad4c303a"
     end
     on_intel do
-      url "https://github.com/emirmrkaljevic/behave/releases/download/v0.1.5/behave_0.1.5_linux_amd64.tar.gz"
-      sha256 "5c3acdd17d664a8fd117fa4b9dd4e4b23161827008e7aba4b4ab8ae1a3883709"
+      url "https://github.com/emirmrkaljevic/behave/releases/download/v0.1.6/behave_0.1.6_linux_amd64.tar.gz"
+      sha256 "b4ae9b27456271df15cc903850f11cfa048a0e0f871d98baa25fd1a71517cd92"
     end
   end
 
